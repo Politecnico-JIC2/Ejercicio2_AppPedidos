@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ListaDePedidos[
+        <!ELEMENT ListaDePedidos (Pedido+)>
+        <!ELEMENT Pedido (NumSerie,Cantidad,Peso?)>
+        <!ELEMENT NumSerie (#PCDATA)>
+        <!ELEMENT Cantidad (#PCDATA)>
+        <!ELEMENT Peso (#PCDATA)>
+        ]>
+<ListaDePedidos>
+    <Pedido>
+        <NumSerie>P0001</NumSerie>
+        <Cantidad>6</Cantidad>
+    </Pedido>
+    <Pedido>
+        <NumSerie>P0002</NumSerie>
+        <Cantidad>12</Cantidad>
+        <Peso>20</Peso>
+    </Pedido>
+</ListaDePedidos>
