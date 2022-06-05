@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ListaDePedidos[
-        <!ELEMENT ListaDePedidos (Pedido+)>
-        <!ELEMENT Pedido (NumSerie,Cantidad,Peso?)>
-        <!ELEMENT NumSerie (#PCDATA)>
-        <!ELEMENT Cantidad (#PCDATA)>
-        <!ELEMENT Peso (#PCDATA)>
-        ]>
+<!DOCTYPE ListaDePedidos SYSTEM "AppPedidos.dtd">
 <ListaDePedidos>
     <Pedido>
         <NumSerie>P0001</NumSerie>
