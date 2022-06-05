@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a632c4-49c2-4fbe-a49c-98057dfe656e" name="Changes" comment="Creación de XML">
-      <change afterPath="$PROJECT_DIR$/AppPedidos.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppPedidos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppPedidos.xsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppPedidos.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/AppPedidos.dtd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppPedidos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AppPedidos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppPedidos.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/AppPedidos.xsd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

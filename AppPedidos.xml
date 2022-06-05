@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="AppPedidos.xsl" ?>
 <!DOCTYPE ListaDePedidos SYSTEM "AppPedidos.dtd">
-<ListaDePedidos>
+<ListaDePedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="AppPedidos.xsd">
     <Pedido>
         <NumSerie>P0001</NumSerie>
         <Cantidad>6</Cantidad>
@@ -9,5 +11,11 @@
         <NumSerie>P0002</NumSerie>
         <Cantidad>12</Cantidad>
         <Peso>20</Peso>
+    </Pedido>
+
+    <Pedido>
+        <NumSerie>P0003</NumSerie>
+        <Cantidad>10</Cantidad>
+        <Peso>30.5</Peso>
     </Pedido>
 </ListaDePedidos>
